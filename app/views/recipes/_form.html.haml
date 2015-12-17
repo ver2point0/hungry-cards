@@ -3,7 +3,7 @@
     #errors
       %p
         = @recipe.errors.count
-        Prevented this recipe from saving
+        Prevented this card from saving
       %ul
         - @recipe.errors.full_messages.each do |msg|
           %li = msg
@@ -17,8 +17,16 @@
         %h3 Ingredients
         #ingredients
           = f.simple_fields_for :ingredients do |ingredient|
-            = render 'ingredients_fields', f: ingredient
+            = render 'ingredient_fields', f: ingredient
           .links  
-            = link_to_add_association 'Add Ingredient', f, :ingredients, class: "btn btn-default add-button"
+            = link_to_add_association 'Add Ingredient', f, :ingredients, class: "btn btn-warning add-button"
+      
+      .col-md-6
+        %h3 Directions
+        #directions
+          = f.simple_fields_for :directions do |direction|
+            = render 'direction_fields', f: direction
+          .links
+            = link_to_add_association 'Add Step', f, :directions, class: "btn btn-warning add-button"
             
   = f.button :submit, "Add Card", class: "btn btn-success"
