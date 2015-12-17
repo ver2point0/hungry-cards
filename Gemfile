@@ -24,6 +24,10 @@ group :development do
   gem 'spring'
 end
 
+# Use Simple form for easy forms
+gem 'simple_form', '~> 3.2'
+# Use HAML for styling
+gem 'haml', '~> 4.0.5'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
