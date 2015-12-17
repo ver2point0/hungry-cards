@@ -51,6 +51,7 @@ GEM
       activesupport (>= 3.0)
     cocaine (0.5.8)
       climate_control (>= 0.0.3, < 1.0)
+    cocoon (1.2.6)
     coderay (1.1.0)
     coffee-rails (4.1.0)
       coffee-script (>= 2.2.0)
@@ -178,6 +179,7 @@ PLATFORMS
 DEPENDENCIES
   bootstrap-sass
   byebug
+  cocoon (~> 1.2.6)
   coffee-rails (~> 4.1.0)
   haml (~> 4.0.5)
   jbuilder (~> 2.0)

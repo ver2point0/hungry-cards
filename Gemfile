@@ -24,16 +24,18 @@ group :development do
   gem 'web-console', '~> 2.0'
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
-  gem 'spring'
+  gem 'spring'  
 end
 
-# User paperclip for images
+# Use cocoon for nested forms
+gem 'cocoon', '~> 1.2.6'
+# Use paperclip for images
 gem 'paperclip', '~> 4.2.0'
 # Use SASS for Bootstrap
 gem 'bootstrap-sass'
 # Use Simple form for easy forms
 gem 'simple_form', '~> 3.2'
-# Use HAML for styling
+# Use HAML for styling 
 gem 'haml', '~> 4.0.5'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
