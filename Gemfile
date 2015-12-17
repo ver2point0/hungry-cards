@@ -17,6 +17,9 @@ group :development do
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3'
   
+  # Use pry as rails console
+  gem 'pry-rails'
+  
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'
 
@@ -24,6 +27,10 @@ group :development do
   gem 'spring'
 end
 
+# User paperclip for images
+gem 'paperclip', '~> 4.2.0'
+# Use SASS for Bootstrap
+gem 'bootstrap-sass'
 # Use Simple form for easy forms
 gem 'simple_form', '~> 3.2'
 # Use HAML for styling
