@@ -27,6 +27,8 @@ group :development do
   gem 'spring'  
 end
 
+# Use devise for authentication
+gem 'devise'
 # Use cocoon for nested forms
 gem 'cocoon', '~> 1.2.6'
 # Use paperclip for images
