@@ -10,3 +10,5 @@ Hungry cards is a recipe application. Create and share the recipes you love.
 ## Share hungry, save room for dessert!
 
 The current version is deployed on Heroku: [Hungry cards](https://hungrycards.herokuapp.com/)
+
+[![ghit.me](https://ghit.me/badge.svg?repo=ver2point0/hungry-cards)](https://ghit.me/repo/ver2point0/hungry-cards)
